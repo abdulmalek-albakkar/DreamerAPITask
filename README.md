@@ -54,7 +54,10 @@ And it will clear the old data/seeds so you'll have fresh data with random names
 | admin@dreamer.com | admin | Administrator |
 | customer@dreamer.com | customer | Customer |
 
-*Note: it's better to change user email or add new user (see below) in order to recieve valid emails about changing order status (paid, shipped, and delivered)*
+*Note 1: it's better to change user email or add new user (see below) in order to recieve valid emails about changing order status (paid, shipped, and delivered)*
+
+*Note 2: you might encounter email notification issue either due to different IP sign-in or suspicious activity, and of course the perfect solution would be something like G-Suite*
+
 ### Where Am I:
 Simply, you should identify yourself by requesting a token using **TokenController**, providing your information. Then you can use all other actions as a logged-in user.
 You can get all available products from **Products Controller** with optional filters (name/category) in addition to paging-related parameters (pageSize/pageIndex), and add the ones you want to your cart using **Carts Controller** which allows you to add/edit/remove products from your cart, 
