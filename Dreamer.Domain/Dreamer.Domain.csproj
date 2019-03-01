@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.8.0" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="7.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dreamer.Dto\Dreamer.Dto.csproj" />
+    <ProjectReference Include="..\Dreamer.EmailNotifier.IService\Dreamer.EmailNotifier.IService.csproj" />
+    <ProjectReference Include="..\Dreamer.IDomain\Dreamer.IDomain.csproj" />
+    <ProjectReference Include="..\Dreamer.InternalHangfire.IService\Dreamer.InternalHangfire.IService.csproj" />
+    <ProjectReference Include="..\Dreamer.SharedContext\Dreamer.SharedContext.csproj" />
+    <ProjectReference Include="..\Dreamer.ShippingCostCalculator.IService\Dreamer.ShippingCostCalculator.IService.csproj" />
+    <ProjectReference Include="..\Dreamer.SqlServer\Dreamer.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>
