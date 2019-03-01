@@ -11,7 +11,7 @@ The project has been made using DDD pattern, which has those folders:
     * EmailNotifier which is responsible for sending notifications after the order has been paid, shipped, or delivered.
     * InternalHangfire which is responsible to enqueue (using hangfire library) the shipping in 24 hours after the order has been payed.
     * ShippingCostCalculator which is just a *fake* service, suppose to calculate the delivery costs.
-* WebApi which represents the endpoint, and it also contains *appsettings* file where you can find the connection strings, Email config, and token config.
+* WebApi which represents the endpoint, and it also contains *appsettings* file where you can find the connection strings, email config, and token config.
 
 ## Libraries I used:
 Database:
